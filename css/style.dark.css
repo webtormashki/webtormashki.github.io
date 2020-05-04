@@ -1639,7 +1639,7 @@ a.post {
 .form textarea {
 	resize: none;
 	overflow:auto;
-	height:70px;
+	height:100px;
 }
 .submit {
 	width:auto !important;
