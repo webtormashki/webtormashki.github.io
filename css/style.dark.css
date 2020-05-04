@@ -1717,11 +1717,12 @@ a.post {
 }
 .facebook:hover {
 	background:url(../images/socialSprite.png) no-repeat 0 -32px;
+
 }
-.flickr {
+.insta {
 	background:url(../images/socialSprite.png) no-repeat -32px 0;
 }
-.flickr:hover {
+.insta:hover {
 	background:url(../images/socialSprite.png) no-repeat -32px -32px;
 }
 .dribbble {
@@ -1772,10 +1773,10 @@ a.post {
 .delicious:hover {
 	background:url(../images/socialSprite.png) no-repeat -288px -32px;
 }
-.digg {
+.vk {
 	background:url(../images/socialSprite.png) no-repeat -320px 0;
 }
-.digg:hover {
+.vk:hover {
 	background:url(../images/socialSprite.png) no-repeat -320px -32px;
 }
 .mixx {
@@ -1852,10 +1853,10 @@ a.post {
 .socialIcons.mini .forrst:hover {
 	background:url(../images/miniSocialSprite.png) no-repeat -32px -16px;
 }
-.socialIcons.mini .flickr {
+.socialIcons.mini .insta {
 	background:url(../images/miniSocialSprite.png) no-repeat -48px 0;
 }
-.socialIcons.mini .flickr:hover {
+.socialIcons.mini .insta:hover {
 	background:url(../images/miniSocialSprite.png) no-repeat -48px -16px;
 }
 .socialIcons.mini .facebook {
