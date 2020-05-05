@@ -1,13 +1,15 @@
 .word--weaver {
-	font-size: 12vw;
-	font-family: 'Abril Fatface', sans-serif;
+	/* font-size: 12vw; */
+	/* font-family: 'Abril Fatface', sans-serif; */
 	font-weight: 400;
-	color: #000;
+	color: #2d3139;
 	line-height: 0.8;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin: 0;
 	justify-content: center;
 	display: flex;
+
+	
 }
 
 .word--weaver svg {
@@ -16,7 +18,7 @@
 }
 
 .letter-solid {
-	fill: #1b1b1c;
+	fill: #2d3139;
 	transform-origin: 50% 50%;
 }
 
@@ -25,4 +27,5 @@
 	stroke-width: 1px;
 	fill: none;
 	opacity: 0;
+
 }

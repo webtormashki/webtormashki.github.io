@@ -227,7 +227,7 @@ td { vertical-align: top; }
    ========================================================================== */
 body {
 	background:url(../images/bgBodyDark.jpg);
-	background:url(../images/bgShineDark.png) no-repeat top center, url(../images/bgBodyDark.jpg) repeat top left;
+	background:url(../images/bgShineDark.png) no-repeat top left, url(../images/bgBodyDark.jpg) repeat top left;
 	text-shadow:0 1px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -425,10 +425,10 @@ h1 {
 	color:#FFF;
 	margin-top:70px;
 	margin-bottom:20px;
-	text-align:center;
-	background:url(../images/strip2.png) no-repeat center bottom, url(../images/strip2.png) no-repeat center 0px;
-	padding-top:30px;
-	padding-bottom:30px;
+	/* text-align:center; */
+	/*background:url(../images/strip2.png) no-repeat center bottom , url(../images/strip2.png) no-repeat center 0px */;
+	padding-top:10px;
+	padding-bottom:0px;
 }
 h2 {
 	font-size:14px;
@@ -519,7 +519,7 @@ hr {
 
 /* Main header - block & logo */
 .mainHeader {
-	margin:50px 0;
+	margin:20px 0;
 	width:940px;
 }
 .mainHeader img {
@@ -530,7 +530,7 @@ hr {
 /* Main header - navigation */
 .mainHeader nav {
 	float:right;
-	margin-top:12px;
+	margin-top:0px;
 }
 .mainHeader ul li, #gridFilters ul li {
 	float:left;
@@ -589,14 +589,13 @@ hr {
 
 /* Main header - tagline */
 .mainHeader h1 {
-	line-height:50px;
+	line-height:0px;
 	margin-top:0px;
-	font-weight:400;
 	display:block;
-	margin-top:30px;
-	font-size:22px;
-	font-weight:400;
-	color:#FF;
+	/* margin-top:80px; */
+	/* font-size:40px; */
+	/* font-weight:400; */
+	/* color:#FF; */
 }
 .mainHeader h1 span {
 	font-size:22px;
@@ -605,7 +604,16 @@ hr {
 }
 .mainHeader h1 strong {
 	color:#00CCFF;
-	font-weight:400;
+	transform: scaleX(-1) rotate(180deg);
+	display: block;
+	font-size:31px;
+	opacity: 0.9;
+	text-align: center;
+	/* font-weight:400; */
+}
+.mainHeader .logo {
+	display: block;
+	width: 200px;
 }
 
 /*====================================
@@ -2566,7 +2574,7 @@ a.post {
 	}
 	.mainHeader h1 {
 		margin:80px 0 0 0;
-		line-height: 30px;
+		line-height: 0px;
 	}
 	.mainHeader h1, .mainHeader span {
 		text-align:center;
