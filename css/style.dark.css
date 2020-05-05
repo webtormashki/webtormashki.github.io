@@ -227,7 +227,7 @@ td { vertical-align: top; }
    ========================================================================== */
 body {
 	background:url(../images/bgBodyDark.jpg);
-	background:url(../images/bgShineDark.png) no-repeat top left, url(../images/bgBodyDark.jpg) repeat top left;
+	background:url(../images/bgShineDark.png) no-repeat top center, url(../images/bgBodyDark.jpg) repeat top left;
 	text-shadow:0 1px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -649,7 +649,7 @@ footer nav {
 }
 
 /* Footer nav  */
-footer ul li {
+/* footer ul li {
 	float:left;
 	background:url(../images/menuSep.png) no-repeat left 8px transparent;
 }
@@ -665,7 +665,7 @@ footer ul li a {
 }
 footer ul li a:hover{
 	color:#999;
-}
+} */
 
 /*====================================
 
@@ -1714,24 +1714,28 @@ a.post {
 
 .socialHover {
 	position:absolute;
-	top:0;
 	left:0;
 	opacity:0;
 }
 
+
+
+
 /* Large Icons - Sprites */
 .facebook {
 	background:url(../images/socialSprite.png) no-repeat 0 0;
+	
 }
 .facebook:hover {
 	background:url(../images/socialSprite.png) no-repeat 0 -32px;
-
+	top: 32px;
 }
 .insta {
 	background:url(../images/socialSprite.png) no-repeat -32px 0;
 }
 .insta:hover {
 	background:url(../images/socialSprite.png) no-repeat -32px -32px;
+	top: 32px;
 }
 .dribbble {
 	background:url(../images/socialSprite.png) no-repeat -64px 0;
@@ -1739,46 +1743,46 @@ a.post {
 .dribbble:hover {
 	background:url(../images/socialSprite.png) no-repeat -64px -32px;
 }
-.linkedin {
+.socialIcons .linkedin {
 	background:url(../images/socialSprite.png) no-repeat -96px 0;
 }
-.linkedin:hover {
+.socialIcons .linkedin:hover {
 	background:url(../images/socialSprite.png) no-repeat -96px -32px;
 }
-.vimeo {
+.socialIcons .vimeo {
 	background:url(../images/socialSprite.png) no-repeat -128px 0;
 }
-.vimeo:hover {
+.socialIcons .vimeo:hover {
 	background:url(../images/socialSprite.png) no-repeat -128px -32px;
 }
-.twitter {
+.socialIcons .twitter {
 	background:url(../images/socialSprite.png) no-repeat -160px 0;
 }
-.twitter:hover {
+.socialIcons .twitter:hover {
 	background:url(../images/socialSprite.png) no-repeat -160px -32px;
 }
-.netvibes {
+.socialIcons .netvibes {
 	background:url(../images/socialSprite.png) no-repeat -192px 0;
 }
-.netvibes:hover {
+.socialIcons .netvibes:hover {
 	background:url(../images/socialSprite.png) no-repeat -192px -32px;
 }
-.stumbleupon {
+.socialIcons .stumbleupon {
 	background:url(../images/socialSprite.png) no-repeat -224px 0;
 }
-.stumbleupon:hover {
+.socialIcons .stumbleupon:hover {
 	background:url(../images/socialSprite.png) no-repeat -224px -32px;
 }
-.technorati {
+.socialIcons .technorati {
 	background:url(../images/socialSprite.png) no-repeat -256px 0;
 }
-.technorati:hover {
+.socialIcons .technorati:hover {
 	background:url(../images/socialSprite.png) no-repeat -256px -32px;
 }
-.delicious {
+.socialIcons .delicious {
 	background:url(../images/socialSprite.png) no-repeat -288px 0;
 }
-.delicious:hover {
+.socialIcons .delicious:hover {
 	background:url(../images/socialSprite.png) no-repeat -288px -32px;
 }
 .vk {
@@ -1786,68 +1790,71 @@ a.post {
 }
 .vk:hover {
 	background:url(../images/socialSprite.png) no-repeat -320px -32px;
+	top: 32px;
 }
-.mixx {
+.socialIcons .mixx {
 	background:url(../images/socialSprite.png) no-repeat -352px 0;
 }
-.mixx:hover {
+.socialIcons .mixx:hover {
 	background:url(../images/socialSprite.png) no-repeat -352px -32px;
 }
-.sharethis {
+.socialIcons .sharethis {
 	background:url(../images/socialSprite.png) no-repeat -384px 0;
 }
-.sharethis:hover {
+.socialIcons .sharethis:hover {
 	background:url(../images/socialSprite.png) no-repeat -384px -32px;
 }
-.rss {
+.socialIcons .rss {
 	background:url(../images/socialSprite.png) no-repeat -416px 0;
 }
-.rss:hover {
+.socialIcons .rss:hover {
 	background:url(../images/socialSprite.png) no-repeat -416px -32px;
 }
-.myspace {
+.socialIcons .myspace {
 	background:url(../images/socialSprite.png) no-repeat -448px 0;
 }
-.myspace:hover {
+.socialIcons .myspace:hover {
 	background:url(../images/socialSprite.png) no-repeat -448px -32px;
 }
-.forrst {
+.socialIcons .forrst {
 	background:url(../images/socialSprite.png) no-repeat -480px 0;
 }
-.forrst:hover {
+.socialIcons .forrst:hover {
 	background:url(../images/socialSprite.png) no-repeat -480px -32px;
 }
-.tumblr {
+.socialIcons .tumblr {
 	background:url(../images/socialSprite.png) no-repeat -512px 0;
 }
-.tumblr:hover {
+.socialIcons .tumblr:hover {
 	background:url(../images/socialSprite.png) no-repeat -512px -32px;
 }
-.blogger {
+.socialIcons .blogger {
 	background:url(../images/socialSprite.png) no-repeat -544px 0;
 }
-.blogger:hover {
+.socialIcons .blogger:hover {
 	background:url(../images/socialSprite.png) no-repeat -544px -32px;
 }
-.bebo {
+.socialIcons .bebo {
 	background:url(../images/socialSprite.png) no-repeat -576px 0;
 }
-.bebo:hover {
+.socialIcons .bebo:hover {
 	background:url(../images/socialSprite.png) no-repeat -576px -32px;
 }
-.lastfm {
+.socialIcons .lastfm {
 	background:url(../images/socialSprite.png) no-repeat -608px 0;
 }
-.lastfm:hover {
+.socialIcons .lastfm:hover {
 	background:url(../images/socialSprite.png) no-repeat -608px -32px;
 }
 
 /* Mini Icons - Sprites */
 .socialIcons.mini .vk {
 	background:url(../images/miniSocialSprite.png) no-repeat 0 0;
+	top:0;
 }
 .socialIcons.mini .vk:hover {
 	background:url(../images/miniSocialSprite.png) no-repeat 0 -16px;
+	top:0;
 }
 .socialIcons.mini .linkedin {
 	background:url(../images/miniSocialSprite.png) no-repeat -16px 0;
@@ -1863,15 +1870,19 @@ a.post {
 }
 .socialIcons.mini .insta {
 	background:url(../images/miniSocialSprite.png) no-repeat -48px 0;
+	top:0;
 }
 .socialIcons.mini .insta:hover {
 	background:url(../images/miniSocialSprite.png) no-repeat -48px -16px;
+	top:0;
 }
 .socialIcons.mini .facebook {
 	background:url(../images/miniSocialSprite.png) no-repeat -64px 0;
+	top:0;
 }
 .socialIcons.mini .facebook:hover {
 	background:url(../images/miniSocialSprite.png) no-repeat -64px -16px;
+	top:0;
 }
 .socialIcons.mini .dribbble {
 	background:url(../images/miniSocialSprite.png) no-repeat -80px 0;
