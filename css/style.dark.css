@@ -355,8 +355,15 @@ body:before {
 }
 .left {
 	float:left;
-} .right {
+}.right {
 	float:right;
+	top: 10px;
+	margin: 20px 10px 0 50px;
+}
+.fcontact{
+	position: absolute;
+	top: 13px;
+	left: 120px;
 }
 
 /* Left sidebar */
@@ -632,6 +639,7 @@ footer {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	height:55px;
+
 }
 footer div {
 	border-top:2px solid #00CCFF;
@@ -644,28 +652,36 @@ footer p {
 	text-align:left;
 	margin:auto;
 }
-footer nav {
+/* footer nav {
 	float:right;
+	 */
+}
+.fnav {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	float: right;
 }
 
 /* Footer nav  */
-/* footer ul li {
+.fnav ul li {
 	float:left;
 	background:url(../images/menuSep.png) no-repeat left 8px transparent;
 }
-footer ul li:first-child {
+.fnav ul li:first-child {
 	background:none transparent;
 }
-footer ul li a {
+.fnav ul li a {
 	font-size:12px;
 	margin:0 10px;
 	padding-left:3px;
 	color:#CCC;
 	font-style:normal;
 }
-footer ul li a:hover{
+.fnav ul li a:hover{
 	color:#999;
-} */
+}
+
 
 /*====================================
 
@@ -1664,7 +1680,7 @@ a.post {
 	padding:5px 15px !important;
 	float:right !important;
 	margin:0;
-	margin-bottom:0 !important;
+	/* margin-bottom:0 !important; */
 }
 .ie7 .form {
 	overflow:hidden;
@@ -1705,7 +1721,7 @@ a.post {
 	text-indent:-9999px;
 	width:32px;
 	height:32px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 
 }
 .socialIcons {
@@ -2576,6 +2592,9 @@ a.post {
 @media only screen and (max-width: 767px) {
   /* Style adjustments for viewports below 768px */
   /* Columns redesign */
+	.right{
+		display: none;
+	}
 	.logo {
 		float:none;
 		margin:-20px 0 20px 140px;
@@ -2587,8 +2606,8 @@ a.post {
 		width:480px !important;
 	}
 	footer p {
-		text-align:center;
-		width:100%;
+		/* text-align:center; */
+		/* width:100%; */
 	}
 	footer > div > *:not(p){
 		display:none;
