@@ -3,8 +3,8 @@
 if(isset($_POST['email'])) {
      
     // - Edit the lines below to fit your Email address and the desired Subject
-    $email_to = "divine.baby.with.charming.smile@gmail.com";
-    $email_subject = "Сообщение на сайте Webtormashki.com";
+    $email_to = "webtormashki@gmail.com";
+    $email_subject = "Сообщение на сайте Webtormashki";
 	
 	// - Do not edit below this line :)
     if(!isset($_POST['name']) ||
