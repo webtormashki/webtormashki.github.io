@@ -872,8 +872,11 @@ footer p {
 
 /* Grid filters */
 #gridFilters {
-	margin-top:-20px;
+	margin-top:0px;
 	margin-bottom:20px;
+	border-top:2px solid #00CCFF;
+	padding:15px 0;
+	width:940px;
 }
 #gridFilters ul, #gridFilters p {
 	display:inline;
