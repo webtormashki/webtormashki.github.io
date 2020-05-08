@@ -1273,6 +1273,11 @@ pre.light {
 	display:inline-block;
 	padding:2px 24px;
 }
+.chunkyButton.right {
+	float: right;
+	display:inline-block;
+	padding:2px 24px;
+}
 
 /* Alert Boxes */
 div.alert {
