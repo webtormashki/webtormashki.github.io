@@ -246,7 +246,7 @@ body {
 	width:960px;
 	overflow:auto;
 	overflow-x:hidden;
-	margin-bottom:50px;
+	margin-bottom:30px;
 }
 .ie7 #main {
 	overflow:visible !important;
@@ -638,7 +638,7 @@ footer {
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
-	height:55px;
+	/* height:55px; */
 
 }
 footer div {
