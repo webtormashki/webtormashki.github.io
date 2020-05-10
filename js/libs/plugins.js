@@ -136,7 +136,7 @@ window.log = function(){
 
 
 /*** 
-	Quick & Simple Tabs Plugin made by me :)
+	Quick & Simple Tabs Plugin
 	
 ***/
 

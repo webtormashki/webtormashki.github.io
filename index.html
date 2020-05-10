@@ -118,9 +118,13 @@
 			
 				<h2 class="sectionHeader">Татьяна Юбко</h2><hr />
 				
-				<p>Веб дизайн — основное направление моей деятельности. Получила образование <mark>программист- web-дизайнер</mark>, работаю в данной сфере с 2013 года. Занимаюсь графикой и версткой сайтов, стараюсь постоянно совершенствовать свои навыки.</p>
+				<p>Веб дизайн — основное направление моей деятельности. Получила образование <mark>программист- web-дизайнер</mark>, работаю в данной сфере с 2013 года. </p>
 				
-				<p class="moreLink"><a href="about.html">Читать &rarr;</a></p>
+				<p class="moreLink"><a href="about.html">Подробнее &rarr;</a></p><br>
+				<p>
+					<a href="portfolio.html" target="_blank" class="chunkyButton blue left">Портфолио online</a>
+					<a href="documents/Web-designer-IObkoT.pdf" target="_blank" class="chunkyButton yellow left">Портфолио pdf</a>
+				</p> 
 			
 			</section>
 			
@@ -151,9 +155,7 @@
 				<blockquote class="clearfix" id="randomdiv10" style="display:none;"><p>Вы не можете израсходовать креативность. Чем больше вы её используете, тем больше у вас её становится
 					<em class="cite">Maya Angelou, американская писательница и поэтесса</em></p></blockquote>
 					<br>
-					<p>
-						<a href="documents/Web-designer-IObkoT.pdf" target="_blank" class="chunkyButton yellow right">Портфолио pdf скачать</a>
-					</p> 
+					
 			</section>
 		</div>
 
@@ -162,19 +164,26 @@
 		</div></header>
 			
 		<div class="rightSide clearfix">
+
 			<section class="col1-1">
-					
+
+				<figure class="rightImage">
+					<video controls width="220" height="390" poster="images/photos/Story.jpg" autoplay loop	>
+						<source src="images/photos/Story_2.mp4" type="video/mp4">
+						<source src="images/photos/Story_2.webm" type="video/webm">
+						<source src="images/photos/Story_2.ogv" type="video/ogg">	
+					  </video>
+				</figure>
 				<h3 class="sectionHeader">Блог</h3><hr />
-				
 				<header>
-					<h2><a href="post.html">Создание онлайн-сервиса видеонаблюдения WiCam.by</a></h2>
+					<h2><a href="#">Cоздание персонажей </a></h2>
 					<p class="nullLinks"> О проектах</p>
 				</header>
-					
-				<p>Видеонаблюдение полезный и важный сервис, но для установки и обслуживания необходимы глубокие знания, время и деньги. Чтобы облегчить жизнь пользователю, создаются онлайн-сервисы видеонаблюдения. К основным преимуществам онлайн-сервиса видеонаблюдения можно отнести простоту построения и использования, отсутствие стартовых инвестиций, отсутствие необходимости технического обслуживании видеосистемы.</p>
-					
-				<p class="moreLink"><a href="post.html">Читать &rarr;</a></p>
-					
+				
+				<p>Просматривая файлы, наткнулась на свою прошлогоднюю разработку — создание персонажей символа 2019 года, семьи свинок: отца Свина-Апельсина, мать Свинку-Мандаринку и детей Клементина и Клементину. Цель задачи — через историю семьи свинок передать мысль о том, что уютный дом — лучший подарок, тем самым привлечь продажи заказчику ... <br></p>
+				<p class="moreLink"><a href="post_pig.html">Подробнее &rarr;</a></p><br>
+				<p>Еще больше интересных публикаций посмотрите в разделе Блог</p><br>
+				<a href="blog.html" target="_blank" class="chunkyButton blue left">Перейти в блог &rarr;</a>
 			</section>
 				
 		</div>
@@ -244,8 +253,9 @@
 
   <!-- JavaScript at the bottom for fast page loading -->
 
-  <script type="text/javascript" language="JavaScript"><!--
-TotalRandomDivs = 4;
+<!-- Цитаты -->
+<script type="text/javascript" language="JavaScript">
+TotalRandomDivs = 10;
 var CookieName = 'DivRamdomValueCookie';
 function RandomDisplay() {
 var r = Math.ceil(Math.random() * TotalRandomDivs);
@@ -268,7 +278,7 @@ document.getElementById("randomdiv"+r).style.display="block";
 }
 RandomDisplay();
 setInterval("RandomDisplay()",5000);
-//--></script>
+</script>
 
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
