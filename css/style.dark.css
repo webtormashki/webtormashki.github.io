@@ -552,7 +552,7 @@ hr {
 }
 .mainHeader ul li, #gridFilters ul li {
 	float:left;
-	background:url(../img/menuSep.png) no-repeat left 8px transparent;
+	background:url(../images/menuSep.png) no-repeat left 8px transparent;
 	position:relative;
 }
 .mainHeader ul li:first-child, #gridFilters ul li:first-child {
