@@ -2139,17 +2139,17 @@ a.post {
  */
  
 /* The Nivo Slider styles */
-.nivoSlider {
+.carousel__inner{
 	position:relative;
-	width:100%;
+	width:670px;
 	height:auto;
 	overflow: hidden;
 }
-.nivoSlider img {
+.carousel__inner img {
 	position:absolute;
 	top:0px;
 	left:0px;
-	max-width: none;
+	max-width: 670px;
 }
 .nivo-main-image {
 	display: block !important;
@@ -2200,7 +2200,7 @@ a.post {
 }
 /* Direction nav styles (e.g. Next & Prev) */
 /* Control nav styles (e.g. 1,2,3...) */
-.nivo-controlNav {
+.slick-dots {
 	position:absolute;
 	z-index:9;
 	cursor:pointer;
@@ -2208,18 +2208,21 @@ a.post {
 	text-indent:-9999px;
 	right:15px;
 }
-.nivo-controlNav a {
-	display:block;
+.slick-dots li{
+	border: none;
+	display:inline-block;
 	float:left;
 	width:8px;
 	height:8px;
 	background:url(../images/nivo.png) no-repeat -8px 0;
 	margin-right:10px;
+	text-indent:-9999px;
+
 }
-.nivo-controlNav a.active {
+.slick-dots li.slick-active {
 	background:url(../images/nivo.png) no-repeat 0px 0;
 }
-   
+
 /* ------------------------------------------------------------------------
 	Pretty Box
 ------------------------------------------------------------------------- */

@@ -7,14 +7,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Webtormashki - Contact </title>
+<title>Webtormashki - Web Portfolio Tatsiana Yubko</title>
 <meta name="description" content="Портфолио веб-дизайнера Татьяны Юбко">
 <meta name="author" content="Tatsiana Yubko">
 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link id="windStyle" rel="stylesheet" href="css/style.dark.css">
 <link rel="shortcut icon" href="images/favicon.png">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
 <!-- weaver logo script -->
 <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Abril+Fatface" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/weaver.css" />
@@ -58,16 +60,17 @@
 
 		<header class="leftSide"><div class="clearfix">
 			<h3 class="sectionHeader">Портфолио</h3><hr />
-			<p id="nivoHeadline">веб-дизайнер Татьяна Юбко</p>
+			<p id="#">Веб-дизайнер Татьяна Юбко</p>
 		</div></header>
 	
 		<div class="rightSide clearfix">
-			<div class="nivoSlider">
-				<a href="documents/Web-designer-IObkoT.pdf" target="_blank" >
-				<img src="images/photos/slider/portfolio1.jpg" title="Веб-дизайнер Татьяна Юбко" alt="" /></a>
+			<div class="carousel__inner">
+
+				<!-- <a href="documents/Web-designer-IObkoT.pdf" target="_blank" > -->
+				<img src="images/photos/slider/portfolio1.jpg" title="Веб-дизайнер Татьяна Юбко" alt="" />
 
 				<img src="images/photos/slider/portfolio2.jpg" title="Графический дизайнер Татьяна Юбко" alt="" />
-				
+
 				<img src="images/photos/slider/portfolio.jpg" title="Маркетинг дизайнер Татьяна Юбко" alt="" />
 
 				<!-- <img src="images/photos/portfolio3.jpg" title="OMA.by     строительный интернет-магазин. Разработка дизайна интерьера для пунктов выдачи заказов" alt="" />
@@ -248,9 +251,27 @@
 
   
   <!--! end of #container -->
-
-
   <!-- JavaScript at the bottom for fast page loading -->
+<!-- slick slider -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carousel__inner').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		arrows: false,
+		fade: true,
+		cssEase: 'linear',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000
+	});
+});
+</script>
 
 <!-- Цитаты -->
 <script type="text/javascript" language="JavaScript">
@@ -280,21 +301,10 @@ setInterval("RandomDisplay()",5000);
 </script>
 
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
   <!--script logo animation -->
   <script src="js/anime.min.js"></script>
   <script src="js/demo9.js"></script>
-  
+
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.min.js"></script>
   <script defer src="js/script.min.js"></script>
