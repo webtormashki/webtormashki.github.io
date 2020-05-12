@@ -1,19 +1,26 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>	<html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Webtormashki - Web Portfolio Tatsiana Yubko</title>
 <meta name="description" content="Портфолио веб-дизайнера Татьяны Юбко">
 <meta name="author" content="Tatsiana Yubko">
-<title>Webtormashki - Web Portfolio Tatsiana Yubko</title>
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link id="windStyle" rel="stylesheet" href="css/style.dark.css">
 <link rel="shortcut icon" href="images/favicon.png">
+
 <!-- weaver logo script -->
 <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Abril+Fatface" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/weaver.css" />
+<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 
 <body>
@@ -163,11 +170,11 @@
 			<section class="col1-1">
 
 				<figure class="rightImage">
-					<!-- <a href="post_pig.html"><video controls width="220" height="390" poster="images/photos/video/Story.jpg" autoplay loop	>
+					<a href="post_pig.html"><video controls width="220" height="390" poster="images/photos/video/Story.jpg" autoplay loop	>
 						<source src="images/photos/video/Story_2.mp4" type="video/mp4">
 						<source src="images/photos/video/Story_2.webm" type="video/webm">
 						<source src="images/photos/video/Story_2.ogv" type="video/ogg">	
-					  </video></a> -->
+					  </video></a>
 				</figure>
 				<h3 class="sectionHeader">Блог</h3><hr />
 				<header>
@@ -243,6 +250,64 @@
 </footer>
 
   
+  <!--! end of #container -->
+  <!-- JavaScript at the bottom for fast page loading -->
+<!-- slick slider -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carousel__inner').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		arrows: false,
+		fade: true,
+		cssEase: 'linear',
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000
+	});
+});
+</script>
 
+<!-- Цитаты -->
+<script type="text/javascript" language="JavaScript">
+TotalRandomDivs = 10;
+var CookieName = 'DivRamdomValueCookie';
+function RandomDisplay() {
+var r = Math.ceil(Math.random() * TotalRandomDivs);
+if(TotalRandomDivs > 1) {
+   var ck = 0;
+   var cookiebegin = document.cookie.indexOf(CookieName + "=");
+   if(cookiebegin > -1) {
+      cookiebegin += 1 + CookieName.length;
+      cookieend = document.cookie.indexOf(";",cookiebegin);
+      if(cookieend < cookiebegin) { cookieend = document.cookie.length; }
+      ck = parseInt(document.cookie.substring(cookiebegin,cookieend));
+      }
+   while(r == ck) { r = Math.ceil(Math.random() * TotalRandomDivs); }
+   document.cookie = CookieName + "=" + r;
+   }
+for( var i=1; i<=TotalRandomDivs; i++) {
+   document.getElementById("randomdiv"+i).style.display="none";
+   }
+document.getElementById("randomdiv"+r).style.display="block";
+}
+RandomDisplay();
+setInterval("RandomDisplay()",5000);
+</script>
+
+
+  <!--script logo animation -->
+  <script src="js/anime.min.js"></script>
+  <script src="js/demo9.js"></script>
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.min.js"></script>
+  <script defer src="js/script.min.js"></script>
+  <!-- end scripts-->
 </body>
 </html>
