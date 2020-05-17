@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>BEM</title>
+		<meta name="theme-color" content="#fff">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+		<link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+		<link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+		<link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+		<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+		<link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+		<link rel="stylesheet" href="styles/main.min.css">
+	</head>
+	<body>
+		<header id="up">
+	<nav>
+		<div class="container">
+			<ul class="menu">
+				<li class="menu__item"><a href="#up" class="menu__link">Главная</a></li>
+				<li class="menu__item"><a href="#reasons" class="menu__link">Спорт</a></li>
+				<li class="menu__item"><a href="#mobile" class="menu__link">Автомобиль</a></li>
+				<li class="menu__item"><a href="#choice" class="menu__link">Требования</a></li>
+				<li class="menu__item"><a href="#world" class="menu__link">Контакты</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Оставить заявку</a></li>
+			</ul>
+		</div>
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</nav>
+</header>
+		<div class="subheader">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-md-4 offset-md-1">
+				<a href="#" class="subheader__logo"><img src="img/svg/logo.svg" alt="logo"></a>
+			</div>
+
+			<div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+				<div class="subheader__call">Ясность нашей позиции </div>
+				<a href="tel:84957970988" class="subheader__phone">12387764-876</a>
+			</div>
+
+			<div class="col-6 col-md-3">
+				<!-- <a href="tel:84957970988" class="xs-visible subheader__phone">12387764-876</a> -->
+				<button data-modal="order" class="btn btn_small">Кнопка</button>
+			</div>
+		</div>
+	</div>
+</div>
+		<section class="promo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
+				<h1 class="promo__header">Повседневная практика</h1>
+				<h2 class="promo__subheader">Разнообразный и богатый опыт говорит.</h2>
+				<div class="promo__descr">
+					Банальные, но неопровержимые выводы, а также представители современных социальных резервов представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали. 
+					<br><br>
+ 					Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+				</div>
+				<button data-modal="consultation" class="btn btn_big btn_animate">Кнопка</button>
+			</div>
+		</div>
+	</div>
+</section>
+		<section id="reasons" class="reasons">
+	<div class="container">
+		<div class="label">Прежде всего</div>
+		<h2 class="title">Не следует, однако, забывать.</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/1.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/2.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/3.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/4.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/5.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/6.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, особенности структуры.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/7.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="reasons__block">
+					<div class="reasons__round">
+						<img src="img/svg/8.svg" alt="reason">
+					</div>
+					<div class="reasons__descr">
+						<div class="reasons__subtitle">А ещё ключевые особенности структуры проекта</div>
+						<div class="reasons__text">
+							Противоположная точка зрения подразумевает, что элементы политического процесса в равной степени предоставлены сами себе. Также как начало повседневной работы по формированию позиции, в своём классическом.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<section id="mobile" class="mobile">
+	<div class="container">
+		<div class="label">возможности</div>
+		<h2 class="title">Для современного мира</h2>
+		<div class="subtitle">Но высококачественный прототип будущего проекта способствует подготовке и реализации.</div>
+
+		<div class="row">
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item1">
+					<div class="mobile_item__subtitle">
+						Равным образом, синтетическое
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item2">
+					<div class="mobile_item__subtitle">
+						Для современного
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item3">
+					<div class="mobile_item__subtitle">
+						Интерактивные
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item4">
+					<div class="mobile_item__subtitle">
+						Являясь всего
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item5">
+					<div class="mobile_item__subtitle">
+						В целом, конечно, граница обучения
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4" data-aos="flip-right">
+				<div class="mobile_item mobile_item6">
+					<div class="mobile_item__subtitle">
+						Идеи
+					</div>
+					<div class="mobile_item__plus"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<section id="choice" class="choice">
+	<div class="container">
+		<div class="black"></div>
+		<div class="label label__white">Реализация.</div>
+		<h2 class="title title__white hidden-320">Идейные соображения</h2>
+		<div class="subtitle subtitle__white hidden-320">Лишь представители современных социальных резервов</div>
+
+		<img src="img/choice_pic.png" data-aos="zoom-in-up" alt="pic" class="choice__img">
+		<div class="choice__descr">
+		Каждый из нас понимает очевидную вещь:  <br>
+		высокое качество позиционных
+		</div>
+	</div>
+</section>
+		<section id="require" class="require" id="require">
+	<div class="container">
+		<div class="label">доклад </div>
+		<h2 class="title">Консультация с широким активом</h2>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="require__block">
+				<div class="require__title">
+					Британские ученые заявили, что 
+				</div>
+				<ul class="require__list">
+					<li>Нет звука приятнее, чем боевой клич героев</li>
+					<li>
+						Чистый разум не скован границами!
+					</li>
+					<li>
+						Вектор развития связывает нас с нашим прошлым
+					</li>
+					<li>
+						Очевидцы сообщают, что слышали полуночный вой
+					</li>
+					<li>
+						Кровь стынет в жилах
+					</li>
+					<li>
+						Новая парадигма реальности
+					</li>
+					<li>
+						герцог графства коронован
+					</li>
+				</ul>
+				<div class="require__descr">
+					Новая модель организационной деятельности бодрит
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="require__block">
+				<div class="require__title">
+					Станет частью наших традиций
+				</div>
+				<ul class="require__list">
+					<li>Нет звука приятнее, чем боевой клич героев</li>
+					<li>
+						Чистый разум не скован границами!
+					</li>
+					<li>
+						Вектор развития связывает нас с нашим прошлым
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="require__block require__block_nmb warning">
+				<div class="require__title">
+					Доблесть наших правозащитников
+				</div>
+				<ul class="require__list">
+					<li>Нет звука приятнее, чем боевой клич героев</li>
+					<li>
+						Чистый разум не скован границами!
+					</li>
+					<li>
+						Вектор развития связывает нас с нашим прошлым
+					</li>
+					<li>
+						Очевидцы сообщают, что слышали полуночный вой
+					</li>
+					<li>
+						Кровь стынет в жилах
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="require__block require__block_nmb warning">
+				<div class="require__title">
+					Самостоятельные решения
+				</div>
+				<ul class="require__list">
+					<li>Нет звука приятнее, чем боевой клич героев</li>
+					<li>
+						Чистый разум не скован границами!
+					</li>
+					<li>
+						Вектор развития связывает нас с нашим прошлым
+					</li>
+					<li>
+						Очевидцы сообщают, что слышали полуночный вой
+					</li>
+					<li>
+						Кровь стынет в жилах
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+		<section id="world" class="world">
+	<div class="container">
+		<div class="label label__white label_min">города</div>
+		<h2 class="title title__white">прототип - не панацея </h2>
+		<div class="subtitle subtitle__white">Почему в провинциях ещё есть чем поживиться</div>
+		<form id="consultation-form" class="feed-form" action="#">
+	<input name="name" required placeholder="Ваше имя" type="text"> 
+	<input name="phone" required placeholder="Ваш телефон"> 
+	<input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+	<button class="btn btn_big btn_mt15">заказать консультацию</button>
+</form>
+
+	</div>
+</section>
+		<footer>
+	<div class="footer_divider"></div>
+	<div class="footer_wrapper">
+		<!-- Если не оборачивать каждый блок в обертку - получится криво -->
+		<div>
+			<div class="social">
+				<div class="social__item">
+					<a href="#" class="social__item social__item_facebook"></a>
+				</div>
+				<div class="social__item">
+					<a href="#" class="social__item social__item_insta"></a>
+				</div>
+				<div class="social__item">
+					<a href="#" class="social__item social__item_dribble"></a>
+				</div>
+				<div class="social__item">
+					<a href="#" class="social__item social__item_youtube"></a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="footer_links">
+				<div class="footer_links_main">
+					<a href="#">на главную</a>
+					<a href="#">Спорт</a>
+					<a href="#">Автомобиль</a>
+				</div>
+				<div class="footer_links_sub">
+					<a href="#">центр поддержки</a>
+					<a href="#">вакансии</a>
+					<a href="#">разработчики</a>
+					<a href="#">блог</a>
+					<a href="#">о нас</a>
+				</div>
+				<a href="#" class="footer_links_lang">Русский</a>
+			</div>
+		</div>
+		<div>
+			<div class="footer_mobile">
+				<a href="#">
+					<img src="img/svg/app_store.svg" alt="App Store">
+				</a>
+				<a href="#">
+					<img src="img/svg/google_play.svg" alt="Google play">
+				</a>
+				<a href="#">
+					<img src="img/svg/windows_store.svg" alt="Windows store">
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+		<div class="overlay">
+	<div class="modal" id="consultation">
+		<div class="modal__close">&times;</div>
+		<div class="modal__subtitle">Просто заполните форму заявки</div>
+		<div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+		<form class="feed-form feed-form_mt25" action="#">
+			<input name="name" placeholder="Ваше имя" type="text"> 
+			<input name="phone" placeholder="Ваш телефон"> 
+			<input name="email" placeholder="Ваш E-mail" type="email"> 
+
+			<button class="btn btn_big btn_mt15">заказать консультацию</button>
+		</form>
+	</div>
+
+	<div class="modal" id="order">
+		<div class="modal__close">&times;</div>
+		<div class="modal__subtitle">Ваш заказ:</div>
+		<div class="modal__descr">1234567890</div>
+		<form class="feed-form feed-form_mt25" action="#">
+			<input name="name" required placeholder="Ваше имя" type="text"> 
+			<input name="phone" required placeholder="Ваш телефон"> 
+			<input name="email" required placeholder="Ваш E-mail" type="email"> 
+
+			<button class="btn btn_big btn_mt15">купить</button>
+		</form>
+	</div>
+
+	<div class="modal modal_mini" id="thanks">
+		<div class="modal__close">&times;</div>
+		<div class="modal__subtitle">Спасибо за вашу заявку!</div>
+		<div class="modal__descr">Наш менеджер свяжется с вами 
+			в ближайшее время!</div>
+	</div>
+</div>
+
+		<a href="#up" class="pageup">
+	<img src="img/svg/up.svg" alt="up">
+</a>
+		<script src="js/main.min.js"></script>
+		<script src="js/vendor.min.js"></script>
+	</body>
+</html>
