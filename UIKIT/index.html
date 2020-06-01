@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>UIKIT Project</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="styles/main.min.css">
+    </head>
+<body>
+    
+    <div uk-grid class="uk-grid uk-grid-small uk-tile-default" >
+    <!-- Меню -->
+    
+<div class="uk-width-1-3@m uk-width-1-4@l uk-flex uk-flex-top uk-margin-xlarge-top uk-flex-center uk-light column">
+	<ul class="uk-list">
+		<li class="uk-flex uk-flex-center "><p class="uk-logo uk-inline .uk-position-relative " href="#">Logo</p></li>
+		<li>
+			<ul class="uk-nav uk-nav-default ui-navbar-center" uk-switcher="connect: .menu-list; animation: uk-animation-fade;">
+				<li class="uk-active"><a href="#"><span class="uk-margin-small-right" uk-icon="icon: home"></span></span> Главная</a></li>
+				<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: cart"></span> Каталог</a></li>
+				<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: users"></span> О нас</a></li>
+				<li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: location"></span> Контакты</a></li>
+			</ul>
+		</li>
+		<li class="uk-flex uk-flex-center uk-margin-top"><div class="social_left">
+<a href="/" class="uk-margin-small-right uk-icon" uk-icon="twitter"></a>
+<a href="/" class="uk-margin-small-right uk-icon" uk-icon="facebook"></a>
+<a href="/" class="uk-icon" uk-icon="google-plus"></a>
+</div>
+</li>
+
+	</ul>
+	
+</div>
+
+        <!-- Правая часть -->
+        <div class="uk-width-expand column">
+            <ul class="menu-list uk-switcher">
+                <!-- Главная -->
+                <li class="uk-active">
+                    <div class="uk-grid-small uk-child-width-auto uk-flex-middle" uk-grid>
+                        <div uk-height-viewport>
+                            <div uk-height-match="target: .form" class="uk-grid-small uk-child-width-1-3@m" uk-grid>
+
+                                <div>
+	<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+		<img alt="UIKit Мега меню" data-src="img/photo16.jpg" data-width="1000" height="667" uk-img>
+		<div class="uk-position-center">
+			<ul class="uk-iconnav">
+				<li><a href="#" uk-icon="icon: plus"></a></li>
+				<li><a href="#" uk-icon="icon: file-edit"></a></li>
+				<li><a href="#" uk-icon="icon: copy"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+                                <div>
+	<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+		<img alt="UIKit Мега меню" data-src="img/photo9.jpg" data-width="1000" height="667" uk-img>
+	<div class="uk-position-center">
+		<div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove uk-text-center">Заголовок</h4></div>
+		<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove uk-text-center">Подзаголовок</h4></div>
+	</div>
+	</div>
+</div>
+
+                                <div>
+	<div class="uk-inline">
+	<img uk-img data-src="img/photo14.jpg" data-width="750" data-height="500" alt="UIkit nav">
+	<a class="uk-position-absolute uk-transform-center" uk-tooltip="title: Я подсказка; pos: left" style="left: 30%; top: 80%" href="#" uk-marker></a>
+	<a class="uk-position-absolute uk-transform-center" uk-tooltip="title: Я подсказка; pos: left" style="left: 60%; top: 20%" href="#" uk-marker></a>
+	<a class="uk-position-absolute uk-transform-center" uk-tooltip="title: Я подсказка; pos: left" style="left: 90%; top: 60%" href="#" uk-marker></a>
+	<div class="uk-position-center uk-light">
+	<p class="uk-h4 uk-margin-remove">Заголовок</p>
+	</div>
+	</div>
+</div>
+
+
+                                <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="animation: push; autoplay: true; autoplay-interval: 3000">
+
+	<ul class="uk-slideshow-items uk-height-1-1">
+		<li>
+		<img uk-img alt="UIKit Мега меню" data-src="img/photo1.jpg" data-width="750" height="500" uk-cover>
+		</li>
+
+		<li>
+		<img uk-img alt="UIKit Мега меню" data-src="img/photo11.jpg" data-width="750" height="500" uk-cover >
+		</li>
+
+		<li>
+		<img uk-img alt="UIKit Мега меню" data-src="img/photo10.jpg" data-width="750" height="500" uk-cover>
+		</li>
+	</ul>
+	<!-- <div class="uk-slidenav-container">
+	<a class="uk-position-center-left uk-position-small uk-hidden-hover uk-icon uk-slidenav-previous uk-slidenav" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+	<a class="uk-position-center-right uk-position-small uk-hidden-hover uk-icon uk-slidenav-next uk-slidenav" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div> -->
+
+</div>
+                                
+
+
+                                <div>
+	<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+	<img uk-img data-src="img/photo2.jpg" data-width="750" data-height="500" alt="UIkit мега меню">
+	<img uk-img class="uk-transition-scale-up uk-position-cover" data-src="img/photo6.jpg" data-width="750" height="500" alt="UIkit mega menu">
+	</div>
+</div>
+
+
+                                <div>
+	<div class="uk-inline">
+		<div class="uk-position-center-left uk-light">
+			<ul class="uk-dotnav uk-dotnav-vertical uk-margin-left" uk-switcher="connect: #nav-sw; animation: uk-animation-fade">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+			</ul>
+		</div>
+	<ul id="nav-sw" class="uk-switcher">
+		<li><img uk-img data-src="img/photo12.jpg" data-width="750" data-height="500" alt="uikit nav"></li>
+		<li><img uk-img data-src="img/photo4.jpg" data-width="750" data-height="500" alt="uikit nav"></li>
+		<li><img uk-img data-src="img/photo8.jpg" data-width="750" data-height="500" alt="uikit nav"></li>
+	</ul>
+	</div>
+</div>
+
+                                <div>
+	<div class="uk-cover-container">
+		<!-- <span uk-icon="icon: desktop; ratio: 2"></span> -->
+		<canvas width="400" height="250"></canvas>
+		<div class="uk-tile uk-tile-primary uk-text-center " uk-cover><span uk-icon="icon: image; ratio: 2"></span></div>
+	</div>
+</div>
+
+<!-- <div>
+	<div class="uk-tile uk-tile-primary uk-text-center "><span uk-icon="icon: image; ratio: 2"></span></div>
+</div> -->
+                                <div>
+	<div class="uk-cover-container">
+		<!-- <span uk-icon="icon: desktop; ratio: 2"></span> -->
+		<canvas width="400" height="250"></canvas>
+		<video controls autoplay loop muted playsinline uk-cover>
+			<source src="video/video1.mp4" type="video/mp4">
+		  </video>
+	</div>
+</div>
+
+                                <div>
+	<div class="uk-cover-container">
+		<!-- <span uk-icon="icon: desktop; ratio: 2"></span> -->
+		<canvas width="400" height="250"></canvas>
+		<div class="uk-tile uk-tile-secondary uk-text-center " uk-cover><span uk-icon="icon: desktop; ratio: 2"></span></div>
+
+		<!-- <div class="uk-tile uk-tile-secondary uk-text-center uk-animation-toggle" tabindex="0" uk-cover>
+				<img class="uk-animation-stroke" width=40" height="40" src="./../../../img/svg/Lamp1.svg" alt="" uk-svg="stroke-animation: true" >
+		</div> -->
+	</div>
+</div>
+
+<!-- <div>
+	<div class="uk-tile uk-tile-secondary uk-text-center uk-animation-toggle" tabindex="0">
+		<img class="uk-animation-stroke" width=40" height="40" src="./../../../img/svg/Lamp 1.svg" alt="" uk-svg="stroke-animation: true" >
+	</div>
+</div> -->
+
+                               
+
+
+                                <div class="uk-grid-margin uk-width-1-1@m">
+                                    <div uk-height-match="target: > div > .form"  class="uk-child-width-1-2@m uk-grid-small" uk-grid>
+                                        <div>
+                                        <div>
+	<div class="uk-inline-clip form uk-dark uk-height-medium" tabindex="0">
+		<img alt="UIKit Мега меню" data-src="img/banner8.jpg" uk-parallax="target: #test-filter; blur: 0,10;" uk-img>
+	<div class="uk-position-left uk-padding">
+		<blockquote cite="#">
+			<p class="uk-margin-small-bottom">
+				Обычно содержимое этого тега выровнивается отступами со всех сторон и используется наклонный текст.
+				<footer>Лев Николаевич Толстой, <cite><a href="#">писатель</a></cite></footer>
+</blockquote>
+		<!-- <h3 >Заголовок</h3>
+		<p class="uk-light">Расчудесный текст</p>
+		<button class="uk-button uk-button-secondary">Кнопка</button> -->
+	</div>
+	</div>
+</div>
+</div>
+                                        <div>
+	<div class=" uk-padding form uk-height-medium">
+		<form class="uk-grid-small" uk-grid>
+			<h3 class="uk-light">Подписаться на рассылку</h3>
+			<div class="uk-width-1-1">
+				<div class="uk-inline">
+					<a class="uk-form-icon" href="#" uk-icon="icon: mail"></a>
+					<input class="uk-input uk-light" type="text" placeholder="Email...">
+				</div>
+			</div>
+			<div class="uk-width-1-1">
+				<button class="uk-button uk-button-primary">Подписаться</button>
+			</div>
+		</form>
+	</div>
+</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Каталог -->
+                <li>
+                    
+
+<div class="uk-background-cover uk-padding-large" uk-img data-src="img/photo17.jpg" data-width="1800" data-height="1200" alt="UIkit Modal" uk-height-viewport id="gls-bg-2">
+	
+<!-- Заголоки -->
+	<div class="uk-grid uk-grid-small uk-child-width-1-3@l uk-child-width-1-3@m uk-grid-match uk-flex-middle uk-flex-center uk-light uk-height-1-1" uk-grid>
+		<div>
+			<ul class="uk-nav-default uk-nav-parent-icon uk-nav-center" uk-nav>
+			<li class="uk-nav-header">Заголовок</li>
+			<li class="uk-parent">
+				<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			<li class="uk-parent">
+			<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			</ul>
+		</div>
+		<div>
+			<ul class="uk-nav-default uk-nav-parent-icon uk-nav-center" uk-nav>
+			<li class="uk-nav-header">Заголовок</li>
+			<li class="uk-parent">
+			<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			<li class="uk-parent">
+			<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			</ul>
+		</div>
+		<div>
+			<ul class="uk-nav-default uk-nav-parent-icon uk-nav-center" uk-nav>
+			<li class="uk-nav-header">Заголовок</li>
+			<li class="uk-parent">
+			<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			<li class="uk-parent">
+			<a href="#">Заголовок</a>
+			<ul class="uk-nav-sub">
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			<li>
+			<a href="#">Заголовок</a>
+			</li>
+			</ul>
+			</li>
+			</ul>
+		</div>
+	</div>
+	<!-- <div class="uk-background-cover uk-padding-large" uk-img data-src="img/photo10.jpg" data-width="1800" data-height="1200" alt="UIkit Modal" uk-height-viewport id="gls-bg-1"></div> -->
+</div>
+
+
+                </li>
+                <!-- О нас -->
+                <li>
+                    
+                    <div class="uk-grid-margin uk-width-1-1@m">
+	<!-- <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay loop muted playsinline ></video>  -->
+    <video controls autoplay loop muted playsinline>
+        <source src="video/video2.mp4" type="video/mp4">
+      </video>
+</div>
+<div class="uk-cover-container">
+
+	
+<!-- <div class="uk-cover-container" uk-height-viewport> -->
+	
+<div class="uk-overlay ">
+<h3>О компании</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<!-- <h4>Преимущества</h4>
+<div class="uk-grid uk-child-width-1-3@s uk-grid-small" uk-grid>
+<div><div class="uk-tile uk-tile-muted uk-text-center uk-padding-small">Красиво</div></div>
+<div><div class="uk-tile uk-tile-muted uk-text-center uk-padding-small">Вкусно</div></div>
+<div><div class="uk-tile uk-tile-muted uk-text-center uk-padding-small">Полезно</div></div>
+<div><div class="uk-tile uk-tile-muted uk-text-center uk-padding-small">Быстро</div></div>
+<div><div class="uk-tile uk-tile-primary uk-text-center uk-padding-small">Качественно</div></div>
+<div><div class="uk-tile uk-tile-muted uk-text-center uk-padding-small">Дешево</div></div>
+</div>
+</div> -->
+
+<!-- <canvas width="1920" height="1080"></canvas> -->
+
+</div>
+
+                    
+                </li>
+                <!-- Контакты -->
+                <li>
+                    <div class="uk-grid uk-grid-small uk-child-width-1-1 uk-flex-middle" uk-grid>
+	<div>
+		<div class="uk-cover-container uk-inline" uk-height-viewport>
+			
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2338fb5f576bb6e529c4e63396cbdb8a73b0650eab67fca43d6a513ef9f421aa&amp;width=1000&amp;height=720&amp;lang=ru_RU&amp;scroll=true&amp;apikey=<48c03a9e-a214-44e7-9fe0-820570c4d5e4>"></script>
+			<!-- <iframe uk-cover src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2206.6006573909544!2d27.563914215584585!3d53.906105840336465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfbfac8ce12f%3A0x3c68d3f9b4ee60ee!2z0J_QsNGA0Log0LjQvNC10L3QuCDQr9C90LrQuCDQmtGD0L_QsNC70Ys!5e1!3m2!1sru!2sby!4v1590538826176!5m2!1sru!2sby" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom">
+					<h3>Контакты</h3>
+						<ul class="uk-list uk-list-bullet">
+							<li>Телефон: 8 800 000 1234</li>
+							<li>Телефон: 8 800 000 1235</li>
+							<li>Email: mail@mail</li>
+						</ul>
+				</div>
+		</div>
+	</div>
+</div>
+                </li>
+            </ul>
+
+            
+        </div>
+
+    </div>
+
+<script src="js/main.min.js"></script>
+<script src="js/vendor.min.js"></script>
+</body>
+</html>
