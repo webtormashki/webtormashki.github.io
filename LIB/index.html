@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS UI LIB</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="styles/main.min.css">
+    </head>
+    <body>
+        <section class="section container-medium">
+        <header>
+	<div class="logo">
+		<img src="img/favicon.png" alt="logo">
+	</div>
+	<div class="aligner aligner--centerVertical aligner--centerHoritzontal">
+		<div class="text-big m-small">JS UI KIT</div>
+	</div>
+</header>
+
+        </section>
+        <section class="section container-medium">
+        <h2 class="pb-big text-gray text-left">Buttons & Dropdown</h2>
+        <button class="btn" id="first">Button primary</button>
+<button class="btn btn--secondary" >Button secondary</button>
+<button class="btn btn--green" data-count="second">Button success</button>
+                <!-- Dropdown menu -->
+        <div class="dropdown fright">
+            <button class="btn btn--outlined dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+            <div class="dropdown-menu rounded-corners" data-toggle-id="dropdownMenuButton">
+                <a href="#" class="dropdown-item">Action</a>
+                <a href="#" class="dropdown-item">Action #2</a>
+                <a href="#" class="dropdown-item">Action #3</a>
+            </div>
+        </div>
+        </section>
+        <section class="section container-medium">
+        <div class="carousel" id="example">
+	<ol class="carousel-indicators">
+		<li class="active"  data-slide-to="0"></li>
+		<li data-slide-to="1"></li>
+		<li data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner rounded-corners">
+		<div class="carousel-slides">
+			<div class="carousel-item">
+				<img src="https://images.unsplash.com/photo-1590004953392-5aba2e72269a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt="photo">
+			</div>
+			<div class="carousel-item">
+				<img src="https://images.unsplash.com/photo-1590005176489-db2e714711fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80" alt="photo">
+			</div>
+			<div class="carousel-item">
+				<img src="https://images.unsplash.com/photo-1590004845575-cc18b13d1d0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt="photo">
+			</div>
+		</div>
+	</div>
+	<a href="#" class="carousel-prev" data-slide="prev">
+		<span class="carousel-prev-icon">&lt;</span>
+	</a>
+	<a href="#" class="carousel-next" data-slide="next">
+		<span class="carousel-next-icon">&gt;</span>
+	</a>
+</div>
+        <h2 class="text-gray text-right">Carousel</h2>
+        </section>
+        <section class="section container-medium">
+        <h2 class="pb-big text-gray text-left">Tabs</h2>
+        <div class="tab block-center">
+	<div class="tab-panel" data-tabpanel>
+		<div class="tab-item tab-item--active">Content 1</div>
+		<div class="tab-item">Content 2</div>
+		<div class="tab-item">Content 3</div>
+	</div>
+	<div class="tab-content tab-content--active">
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat laboriosam blanditiis omnis? Ab molestias tempora beatae ex itaque cumque, velit modi, molestiae debitis earum dolor quae quis. Ipsum, omnis voluptatem!
+		<br> <br>
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptates ipsum delectus vitae similique earum veniam? Odit soluta quibusdam laudantium molestias perferendis ad voluptates, earum ea deserunt architecto provident ipsum.
+	</div>
+	<div class="tab-content">
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat laboriosam blanditiis omnis? Ab molestias tempora beatae ex itaque cumque, velit modi, molestiae debitis earum dolor quae quis. Ipsum, omnis voluptatem!
+		<br> <br>
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptates ipsum delectus vitae similique earum veniam? Odit soluta quibusdam laudantium molestias perferendis ad voluptates, earum ea deserunt architecto provident ipsum.
+		<br> <br>
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptates ipsum delectus vitae similique earum veniam? Odit soluta quibusdam laudantium molestias perferendis ad voluptates, earum ea deserunt architecto provident ipsum.
+	</div>
+	<div class="tab-content">
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat laboriosam blanditiis omnis? Ab molestias tempora beatae ex itaque cumque, velit modi, molestiae debitis earum dolor quae quis. Ipsum, omnis voluptatem!
+	</div>
+</div>
+        </section>
+        <section class="section container-medium">
+        <h2 class="pb-big text-gray text-left">Accordion</h2>
+        <div class="accordion mt-20 block-center">
+	<div class="accordion-head">
+		<span>Collapse first element</span>
+	</div>
+	<div class="accordion-content">
+		<div class="accordion-inner">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem voluptatibus fuga est cupiditate debitis harum repudiandae modi quia. Enim nobis recusandae totam error veniam quod consequatur nulla, debitis mollitia laborum!
+		</div>
+	</div>
+	<div class="accordion-head">
+		<span>Collapse second element</span>
+	</div>
+	<div class="accordion-content">
+		<div class="accordion-inner">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem voluptatibus fuga est cupiditate debitis harum repudiandae modi quia. Enim nobis recusandae totam error veniam quod consequatur nulla, debitis mollitia laborum!
+		</div>
+	</div>
+</div>
+        </section>
+        <section class="section container-medium">
+            <h2 class="pb-big text-gray text-center">Cards & Modal</h2>
+        <div class="goods aligner aligner--spaceAround">
+	<div class="card rounded-corners">
+		<img class="card-img" src="https://images.unsplash.com/photo-1590005024862-6b67679a29fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2558&q=80" alt="photo">
+		<div class="card-body">
+			<div class="card-title">Card title</div>
+			<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque placeat qui suscipit.</p>
+			<a href="#" id="trigger" class="btn" data-toggle="modal" data-target="#exampleModal">Link to</a>
+		</div>
+	</div>
+	<div class="card rounded-corners">
+		<img class="card-img" src="https://images.unsplash.com/photo-1590005024862-6b67679a29fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2558&q=80" alt="photo">
+		<div class="card-body">
+			<div class="card-title">Card title #2</div>
+			<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque placeat qui suscipit.</p>
+			<a href="#" class="btn" data-toggle="modal" data-target="#exampleModal2">Link to</a>
+		</div>
+	</div>
+</div>
+        </section>
+
+        <section class="section container-medium">
+        <div class="modal" id="exampleModal2">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button class="close" data-close>
+				<span>&times;</span>
+			</button>
+			<div class="modal-header">
+				<div class="modal-title">
+					Modal title #2
+				</div>
+			</div>
+			<div class="modal-body">
+				Lorem ipsum dolor sit 
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn--red data-close>Close</button>
+				<button class="btn btn--green">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="exampleModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button class="close" data-close>
+				<span>&times;</span>
+			</button>
+			<div class="modal-header">
+				<div class="modal-title">
+					Modal title
+				</div>
+			</div>
+			<div class="modal-body">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum minus doloremque nesciunt enim rem quam corporis? Dolorem pariatur magnam distinctio perferendis. Ratione dolorem voluptates iusto facilis odit veritatis, suscipit voluptatibus!
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn--red" data-close>Close</button>
+				<button class="btn btn--green">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+        </section>
+        <footer>
+<div class="aligner aligner--centerVertical aligner--centerHoritzontal">
+	<form action="#" class="m-big">
+	<input type="email" required placeholder="Your email" class="p-medium rounded-corners border">
+	<button class="btn btn--primary">subscribe</button>
+</form>
+</div>
+</footer>
+        <script src="js/main.min.js"></script>
+        <!-- <script src="js/vendor.min.js"></script> -->
+    </body>
+</html>
