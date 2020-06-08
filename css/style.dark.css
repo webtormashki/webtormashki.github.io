@@ -3120,3 +3120,14 @@ a.post {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+.center{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 991px;
+}
+.nivo-control{
+	display: none;
+}
+
